@@ -1,0 +1,23 @@
+package com.blisek.dndmanager;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.Initializable;
+import org.springframework.stereotype.Component;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+
+@Component
+public class MainWindow implements Initializable {
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+    }
+
+
+    public void btnClicked(ActionEvent event) {
+        System.out.println("Button clicked!");
+    }
+}
